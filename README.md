@@ -116,7 +116,7 @@ I wanted to build a bot that scans the internet for arbitrage opportunites
 
 ## What I'd do next
 
-If i wanted to take this further the next steps for me would be to add more sources/marketplaces for a larger pool, I would incoperate sold data for better valuations and allow bot to scan for more items instead of just Phones   
+If i wanted to take this further the next steps for me would be to add more sources/marketplaces for a larger pool, I would incoperate sold data for better valuations and allow bot to scan for more items instead of just phones   
 
 - *more marketplaces behind the same source interface*
 - *richer comp modelling — recency weighting, seasonality*
