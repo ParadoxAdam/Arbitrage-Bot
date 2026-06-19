@@ -2,7 +2,7 @@
 
 A local pricing-research tool that scans the UK eBay marketplace for underpriced phones (and, optionally, shoes and laptops), values each listing against live sold comparables, scores the opportunity, and tracks the full trade lifecycle from review through purchase to sale and P&L. Built as a multi-stage data pipeline behind a FastAPI dashboard, with a versioned valuation engine and 372 tests.
 
-> **Decision-support, not auto-trading.** The bot surfaces and ranks opportunities and models the economics — buying and selling happen manually. By design it tells you when *not* to buy as readily as when to.
+> **Decision-support, not auto-trading.** The bot surfaces and ranks opportunities and models the economics — buying and selling happen manually. 
 
 
 ![Dashboard](docs/screenshot.png)
