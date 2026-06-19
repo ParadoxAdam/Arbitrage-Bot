@@ -108,17 +108,18 @@ I wanted to build a bot that scans the internet for arbitrage opportunites
 
 ## What I learned
 
-- *designing a multi-stage data pipeline with clear, individually testable stages*
-- *modelling a full domain lifecycle in a relational schema*
-- *building a real valuation method on noisy real-world data — comparables, outliers, confidence, and guardrails*
-- *integrating a third-party API: OAuth, throttling, and a mock source for offline testing*
-- *using a regression test suite to change core logic without fear*
+- Designing a multi-stage data pipeline with clear, individually testable stages
+- Modelling a full domain lifecycle in a relational schema*
+- Building a real valuation method on noisy real-world data — comparables, outliers, confidence, and guardrails
+- Integrating a third-party API: OAuth, throttling, and a mock source for offline testing
+- Using a regression test suite to change core logic without fear
+
 
 ## What I'd do next
 
 If i wanted to take this further the next steps for me would be to add more sources/marketplaces for a larger pool, I would incoperate sold data for better valuations and allow bot to scan for more items instead of just phones   
 
-- *more marketplaces behind the same source interface*
-- *richer comp modelling — recency weighting, seasonality*
-- *containerise and deploy behind auth so it can run continuously*
-- *backtest scoring changes against recorded sale outcomes*
+- More marketplaces behind the same source interface
+- Richer comp modelling — recency weighting, seasonality
+- Containerise and deploy behind auth so it can run continuously
+- Backtest scoring changes against recorded sale outcomes
