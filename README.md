@@ -6,7 +6,7 @@ A local pricing-research tool that scans the UK eBay marketplace for underpriced
 
 
 ![Dashboard](docs/screenshot.png)
--->
+
 
 ## What it does
 
