@@ -1,0 +1,33 @@
+# Secrets — NEVER commit (live eBay API keys, Telegram tokens, etc.)
+.env
+.env.*
+!.env.example
+
+# Database — scraped listings and your own trade/review records
+*.db
+*.sqlite
+*.sqlite3
+
+# Python build artifacts & bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
