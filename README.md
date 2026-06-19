@@ -4,9 +4,7 @@ A local pricing-research tool that scans the UK eBay marketplace for underpriced
 
 > **Decision-support, not auto-trading.** The bot surfaces and ranks opportunities and models the economics — buying and selling happen manually. By design it tells you when *not* to buy as readily as when to.
 
-<!-- A dashboard screenshot is a strong credibility boost. Run it in dev mode (mock listings — no real
-     scraped data or your own trades on screen), grab a PNG of the Review Queue or P&L tab, drop it in a
-     /docs folder, and uncomment the line below:
+
 ![Dashboard](docs/screenshot.png)
 -->
 
@@ -106,11 +104,9 @@ Deliberately a single-user local research tool: phones-only by default for a foc
 
 ## Why I built it
 
-*[Your words. A starting point to rewrite: I wanted to find out whether a disciplined, data-driven approach could reliably spot underpriced resale stock — and to build the tooling to test that honestly, including being told when there was no edge to be had.]*
+I wanted to build a bot that scans the internet for arbitrage opportunites 
 
 ## What I learned
-
-*[Your words — keep what's true, say it how you'd actually say it:]*
 
 - *designing a multi-stage data pipeline with clear, individually testable stages*
 - *modelling a full domain lifecycle in a relational schema*
@@ -120,7 +116,7 @@ Deliberately a single-user local research tool: phones-only by default for a foc
 
 ## What I'd do next
 
-*[Your words — genuine directions if you took it further:]*
+If i wanted to take this further the next steps for me would be to add more sources/marketplaces for a larger pool, I would incoperate sold data for better valuations and allow bot to scan for more items instead of just Phones   
 
 - *more marketplaces behind the same source interface*
 - *richer comp modelling — recency weighting, seasonality*
