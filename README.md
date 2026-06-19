@@ -109,7 +109,7 @@ I wanted to build a bot that scans the internet for arbitrage opportunites
 ## What I learned
 
 - Designing a multi-stage data pipeline with clear, individually testable stages
-- Modelling a full domain lifecycle in a relational schema*
+- Modelling a full domain lifecycle in a relational schema
 - Building a real valuation method on noisy real-world data — comparables, outliers, confidence, and guardrails
 - Integrating a third-party API: OAuth, throttling, and a mock source for offline testing
 - Using a regression test suite to change core logic without fear
